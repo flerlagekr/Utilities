@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitter Embedder</title>
+</head>
+
+<body>
+
+<div id="tweet" tweetID="div placeholder"></div>
+
+<script sync src="https://platform.twitter.com/widgets.js"></script>
+
+<script>
+
+	window.onload = (function(){
+		var tweet = document.getElementById("tweet");
+
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		const id = urlParams.get('id')
+		const width = urlParams.get('width')
+
+		twttr.widgets.createTweet(
+			id, tweet,
+			{
+			conversation : 'none',     // or all
+			cards        : 'visible',  // or hidden
+			linkColor    : '#cc0000',  // default is blue
+			theme        : 'light',    // or dark
+			width	     : width
+			})
+		.then (function (el) {
+			el.contentDocument.querySelector(".footer").style.display = "none";
+		});
+	});
+
+</script>
+
+</body>
+</html>
