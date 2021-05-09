@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Color Palettes</title>
+</head>
+
+<body>
+
+<script src="https://coolors.co/palette-widget/widget.js"></script>
+
+</script>
+
+<script data-id="04105851953053845">
+
+    window.onload = (function(){
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		const hexCodes = urlParams.get('codes')
+        
+        // Expects hex codes separated by dashes. Split to create the list
+        hexList = hexCodes.split("-")
+
+        new CoolorsPaletteWidget(
+            "04105851953053845", 
+            hexList
+        )
+    });
+
+</script>
+
+</body>
+</html>
