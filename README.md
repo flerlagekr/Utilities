@@ -6,7 +6,7 @@ Simply host this html file on a public web server. You can then pass three param
 # Image Embeder
 Simple html page that will display an image. Some image sites, such as imgur, won't allow embedding via iFrame (which Tableau uses for web objects). This allows yout to pass a URL of the image, then display it, bypassing that limitation.
 
-Simply host this html file on a public web server. You can then pass one parameter to the url: imageurl. For example: hhttps://flerlageapps.com/image.html?imageurl=https://i.imgur.com/4GK14iv.png
+Simply host this html file on a public web server. You can then pass one parameter to the url: imageurl. For example: https://flerlageapps.com/image.html?imageurl=https://i.imgur.com/4GK14iv.png
 
 
 # Twitter Embedder
