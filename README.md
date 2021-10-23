@@ -3,6 +3,11 @@ Simple html page that will resize an image.
 
 Simply host this html file on a public web server. You can then pass three parameters to the url: width, height, and imageurl. For example: https://flerlageapps.com/resize.html?height=420&width=1000&imageurl=http://flerlageapps.com/logo.png
 
+# Image Resizer
+Simple html page that will display an image. Some image sites, such as imgur, won't allow embedding via iFrame (which Tableau uses for web objects). This allows yout to pass a URL of the image, then display it, bypassing that limitation.
+
+Simply host this html file on a public web server. You can then pass one parameter to the url: imageurl. For example: hhttps://flerlageapps.com/image.html?imageurl=https://i.imgur.com/4GK14iv.png
+
 
 # Twitter Embedder
 Simple html page that will load a tweet in a way that is embeddable via simple URL (useful for Tableau).
