@@ -8,6 +8,10 @@ Simple html page that will display an image. Some image sites, such as imgur, wo
 
 Simply host this html file on a public web server. You can then pass one parameter to the url: imageurl. For example: https://flerlageapps.com/image.html?imageurl=https://i.imgur.com/4GK14iv.png
 
+# Image Fit
+Simple html page that will display an image and fit it to the size of your container.
+
+Simply host this html file on a public web server. You can then pass three parameters to the url: width, height, and imageurl. In this case, width and height apply to the contaiiner and the image will size fit itself to that container. For example: https://flerlageapps.com/imagefit.html?height=500&width=500&imageurl=https://i.imgur.com/4GK14iv.png
 
 # Twitter Embedder
 Simple html page that will load a tweet in a way that is embeddable via simple URL (useful for Tableau).
