@@ -13,7 +13,7 @@ Simple html page that will display an image and fit it to the size of your conta
 
 Simply host this html file on a public web server. You can then pass three parameters to the url: width, height, and imageurl. In this case, width and height apply to the contaiiner and the image will size fit itself to that container. For example: https://flerlageapps.com/imagefit.html?height=500&width=500&imageurl=https://i.imgur.com/4GK14iv.png
 
-# Twitter Embedder
+# Tweet Embedder
 Simple html page that will load a tweet in a way that is embeddable via simple URL (useful for Tableau).
 
 Simply host this html file on a public web server. You can then pass two parameters to the url: id (the tweet ID), width (Twitter has a min width of 250 and max of 550 px). For example: https://flerlageapps.com/twitterembed.html?width=500&id=1381584193579270144
@@ -22,6 +22,10 @@ Base code borrowed from https://www.labnol.org/code/19933-embed-tweet-with-javas
 
 You can also make changes to other parameters in the code (or parameterize them) according to https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
 
+# Twitter Feed Embedder
+Simple html page that will load a Twitter feed in a way that is embeddable via simple URL (useful for Tableau).
+
+Simply host this html file on a public web server. You can then pass a single parameter, profile, to the URL containing the profile of the feed you wish to embed (without the @). For example: https://flerlageapps.com/twitterfeed.html?profile=flerlagekr. Note: The embed code is responsive so it should resize based on the window.
 
 # Hex Color Embedder
 Simple html page that will embed a set of hex color codes using coolors.com. This is done in a way that is embeddable via simple URL (useful for Tableau).
