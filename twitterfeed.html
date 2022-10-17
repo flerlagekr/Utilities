@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitter Feed</title>
+</head>
+
+<body>
+<script>
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const profile = urlParams.get('profile');
+
+	const embedhtml = '<a class="twitter-timeline" href="https://twitter.com/' + profile + '"></a>'
+	document.write(embedhtml);
+</script>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</body>
+</html>
