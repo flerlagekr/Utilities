@@ -1,22 +1,24 @@
+To use these utilities, simply host the html file on a public web server. Or feel free to use my server, https://flerlageapps.com.
+
 # Image Resizer
 Simple html page that will resize an image.
 
-Simply host this html file on a public web server. You can then pass three parameters to the url: width, height, and imageurl. For example: https://flerlageapps.com/resize.html?height=420&width=1000&imageurl=http://flerlageapps.com/logo.png
+Pass three parameters to the url: width, height, and imageurl. For example: https://flerlageapps.com/resize.html?height=420&width=1000&imageurl=http://flerlageapps.com/logo.png
 
 # Image Embeder
-Simple html page that will display an image. Some image sites, such as imgur, won't allow embedding via iFrame (which Tableau uses for web objects). This allows yout to pass a URL of the image, then display it, bypassing that limitation.
+Some image sites, such as imgur, won't allow embedding via iFrame (which Tableau uses for web objects). This allows yout to pass a URL of the image, then display it, bypassing that limitation.
 
-Simply host this html file on a public web server. You can then pass one parameter to the url: imageurl. For example: https://flerlageapps.com/image.html?imageurl=https://i.imgur.com/4GK14iv.png
+Pass one parameter to the url: imageurl. For example: https://flerlageapps.com/image.html?imageurl=https://i.imgur.com/4GK14iv.png
 
 # Image Fit
 Simple html page that will display an image and fit it to the size of your container.
 
-Simply host this html file on a public web server. You can then pass three parameters to the url: width, height, and imageurl. In this case, width and height apply to the contaiiner and the image will size fit itself to that container. For example: https://flerlageapps.com/imagefit.html?height=500&width=500&imageurl=https://i.imgur.com/4GK14iv.png
+Pass three parameters to the url: width, height, and imageurl. In this case, width and height apply to the contaiiner and the image will size fit itself to that container. For example: https://flerlageapps.com/imagefit.html?height=500&width=500&imageurl=https://i.imgur.com/4GK14iv.png
 
 # Tweet Embedder
 Simple html page that will load a tweet in a way that is embeddable via simple URL (useful for Tableau).
 
-Simply host this html file on a public web server. You can then pass two parameters to the url: id (the tweet ID), width (Twitter has a min width of 250 and max of 550 px). For example: https://flerlageapps.com/twitterembed.html?width=500&id=1381584193579270144
+Pass two parameters to the url: id (the tweet ID), width (Twitter has a min width of 250 and max of 550 px). For example: https://flerlageapps.com/twitterembed.html?width=500&id=1381584193579270144
 
 Base code borrowed from https://www.labnol.org/code/19933-embed-tweet-with-javascript
 
@@ -25,9 +27,9 @@ You can also make changes to other parameters in the code (or parameterize them)
 # Twitter Feed Embedder
 Simple html page that will load a Twitter feed in a way that is embeddable via simple URL (useful for Tableau).
 
-Simply host this html file on a public web server. You can then pass a single parameter, profile, to the URL containing the profile of the feed you wish to embed (without the @). For example: https://flerlageapps.com/twitterfeed.html?profile=flerlagekr. Note: The embed code is responsive so it should resize based on the window.
+Pass a single parameter, profile, to the URL containing the profile of the feed you wish to embed (without the @). For example: https://flerlageapps.com/twitterfeed.html?profile=flerlagekr. Note: The embed code is responsive so it should resize based on the window.
 
 # Hex Color Embedder
 Simple html page that will embed a set of hex color codes using coolors.com. This is done in a way that is embeddable via simple URL (useful for Tableau).
 
-Simply host this html file on a public web server. You can then pass one parameter which inludes a dash-separated list of hex color codes. For example: https://flerlageapps.com/color.html?codes=3b0102-762b2c-b6443f-c67d58-f5d6b1-fff8dc
+Pass one parameter which inludes a dash-separated list of hex color codes. For example: https://flerlageapps.com/color.html?codes=3b0102-762b2c-b6443f-c67d58-f5d6b1-fff8dc
