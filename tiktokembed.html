@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Instagram Profile</title>
+  </head>
+
+  <body>
+  
+  <script async src="https://www.tiktok.com/embed.js"></script>
+
+	<script>
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		const profileID = urlParams.get('profile');
+		const videoID = urlParams.get('video');
+		const url = 'https://www.tiktok.com/@' + profileID + '/video/' + videoID
+
+
+		const embedhtml = '<blockquote class="tiktok-embed" cite="' + url + '" data-video-id="' + videoID + '" data-embed-from="embed_page" style="max-width:605px; min-width:325px;"><section></section></blockquote>'
+		document.write(embedhtml);
+	</script>
+
+  </body>
+</html>
