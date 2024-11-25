@@ -33,3 +33,14 @@ Pass a single parameter, profile, to the URL containing the profile of the feed 
 Simple html page that will embed a set of hex color codes using coolors.com. This is done in a way that is embeddable via simple URL (useful for Tableau).
 
 Pass one parameter which inludes a dash-separated list of hex color codes. For example: https://flerlageapps.com/color.html?codes=3b0102-762b2c-b6443f-c67d58-f5d6b1-fff8dc
+
+# MS Word (SharePoint/OneDrive) Embedder
+Simple html page that will load a Word document stored on SharePoint/OneDrive, making it embeddable via simple URL (useful for Tableau).
+
+Pass three parameters to the url:
+
+1) doc - The embed URL for the document. Get this by opening the Word document on the web, clicking File | Share | Embed This Document, then get the url following the "iframe src=". Start with "https" and end witht the right curly bracket.
+2) width - Width of the embed, in pixels. This should be a number.
+3) height - Height of the embed, in pixels. This should be a number.
+
+Example (This is not a real document so this will not load properly): [https://flerlageapps.com/imagefit.html?height=500&width=500&imageurl=https://i.imgur.com/4GK14iv.png](https://flerlageapps.com/Word.html?width=1000&height=600&doc=https://yoursharepointsite/sites/yoursite/_layouts/15/Doc.aspx?sourcedoc={00ff1265-af22-4479-85e0-f2e1fbca2736})
