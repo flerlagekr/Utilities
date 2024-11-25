@@ -43,4 +43,4 @@ Pass three parameters to the url:
 2) width - Width of the embed, in pixels. This should be a number.
 3) height - Height of the embed, in pixels. This should be a number.
 
-Example (This is not a real document so this will not load properly): https://flerlageapps.com/Word.html?width=1000&height=600&doc=https://yoursharepointsite/sites/yoursite/_layouts/15/Doc.aspx?sourcedoc={00ff1265-af22-4479-85e0-f2e1fbca2736}
+Example (This is not a real document so this will not load properly): https://flerlageapps.com/EmbedWord.html?width=1000&height=600&doc=https://yoursharepointsite/sites/yoursite/_layouts/15/Doc.aspx?sourcedoc={00ff1265-af22-4479-85e0-f2e1fbca2736}
