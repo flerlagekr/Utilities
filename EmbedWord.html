@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Word Embed</title>
+</head>
+
+<body>
+<script>
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const urlDoc = urlParams.get('doc');
+	const width = urlParams.get('width');
+	const height = urlParams.get('height');
+
+	const embedhtml = '<p align="center"><iframe src="' + urlDoc + '&amp;action=embedview" width="' + width + 'px" height="' + height + 'px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe></p>'
+	document.write(embedhtml);
+</script>
+
+</body>
+</html>
