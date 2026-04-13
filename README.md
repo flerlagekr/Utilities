@@ -1,4 +1,4 @@
-To use these utilities, simply host the html file on a public web server. Or feel free to use my server, https://flerlageapps.com.
+To use these utilities, simply host the html file on a public web server. Or feel free to use my server, https://flerlageapps.com. However, I give you no guarantee that this will be up and running now or at any time in the future. Please avoid using it for production projects.
 
 # Image Resizer
 Simple html page that will resize an image.
