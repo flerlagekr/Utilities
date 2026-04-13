@@ -46,7 +46,7 @@ Simple html page that will load a Word document stored on SharePoint/OneDrive, m
 
 Pass three parameters to the url:
 
-1) doc - The embed URL for the document. Get this by opening the Word document on the web, clicking File | Share | Embed This Document, then get the url following the "iframe src=". Start with "https" and end witht the right curly bracket.
+1) doc - The embed URL for the document. Get this by opening the Word document on the web, clicking File | Share | Embed This Document, then get the url following the "iframe src=". Start with "https" and end with the right curly bracket.
 2) width - Width of the embed, in pixels. This should be a number.
 3) height - Height of the embed, in pixels. This should be a number.
 
