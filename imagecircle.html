@@ -15,6 +15,9 @@
         const width = urlParams.get('width');
         const height = urlParams.get('height');
         const imageurl = urlParams.get('imageurl');
+        const bgcolor = urlParams.get('bgcolor') || 'transparent';
+
+        document.body.style.backgroundColor = bgcolor;
 
         document.body.innerHTML =
             '<div style="' +
@@ -30,8 +33,9 @@
                     'width:100%;' +
                     'height:100%;' +
                     'object-fit:cover;' +
+                    'display:block;' +
                 '"/>' +
             '</div>';
     </script>
 </body>
-</html>i
+</html>
