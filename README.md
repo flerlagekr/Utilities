@@ -18,7 +18,7 @@ Pass three parameters to the url: width, height, and imageurl. In this case, wid
 # Image Circle Crop
 Simple html page that will display an image and fit it to the size of your container, cropping the image as a circle.
 
-Pass three parameters to the url: width, height, and imageurl. In this case, width and height apply to the contaiiner and the image will size fit itself to that container. For example: https://flerlageapps.com/imagefit.html?height=500&width=500&imageurl=https://i.imgur.com/4GK14iv.png
+Pass three parameters to the url: width, height, and imageurl. In this case, width and height apply to the contaiiner and the image will size fit itself to that container. For example: https://flerlageapps.com/imagecircle.html?height=500&width=500&imageurl=https://flerlageapps.com/KenProfileSquare.png
 
 # Tweet Embedder
 Simple html page that will load a tweet in a way that is embeddable via simple URL (useful for Tableau).
